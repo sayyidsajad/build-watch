@@ -30,7 +30,7 @@ pipeline {
                 sh '''
                 docker run -d \
                   --name build-watch \
-                  -p 3000:3000 \
+                  -p 3000:8081 \
                   build-watch
                 '''
             }
